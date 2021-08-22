@@ -1,16 +1,26 @@
 <ibm-sidenav [expanded]="isToggle">
 	<ibm-sidenav-item>
-		<svg ibmIcon="fade" size="16"></svg>
-		Link
+		<svg icon ibmIconDashboard size="20"></svg>
+		Dashboard
 	</ibm-sidenav-item>
 	<ibm-sidenav-item>
-		<svg ibmIcon="fade" size="16"></svg>
-		Link
+		<svg icon ibmIconStringText size="20"></svg>
+		Typography
 	</ibm-sidenav-item>
-	<ibm-sidenav-menu title="Category tittle">
-		<svg ibmIcon="fade" size="16"></svg>
-		<ibm-sidenav-item>Link</ibm-sidenav-item>
-		<ibm-sidenav-item [active]="hasActiveChild">Link</ibm-sidenav-item>
-		<ibm-sidenav-item>Link</ibm-sidenav-item>
+	<ibm-sidenav-item>
+		<svg icon ibmIconTemplate size="20"></svg>
+		Templates
+	</ibm-sidenav-item>
+	<ibm-sidenav-item>
+		<svg icon ibmIconOpenPanelTop size="20"></svg>
+		Widgets
+	</ibm-sidenav-item>
+	<ibm-sidenav-menu title="Tables">
+		<svg icon ibmIconDataTable size="20"></svg>
+		<ibm-sidenav-item>	
+			HTML Tables
+		</ibm-sidenav-item>
+		<!-- <ibm-sidenav-item [active]="hasActiveChild">Data Tables</ibm-sidenav-item> -->
+		<ibm-sidenav-item>Data Tables</ibm-sidenav-item>
 	</ibm-sidenav-menu>
 </ibm-sidenav>

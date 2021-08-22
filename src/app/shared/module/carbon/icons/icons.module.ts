@@ -6,6 +6,11 @@ import { NotificationModule } from '@carbon/icons-angular';
 import { UserAvatarModule } from '@carbon/icons-angular';
 import { AppSwitcherModule } from '@carbon/icons-angular';
 import { MenuModule } from '@carbon/icons-angular';
+import { DashboardModule } from '@carbon/icons-angular';
+import { StringTextModule } from '@carbon/icons-angular';
+import { TemplateModule } from '@carbon/icons-angular';
+import { OpenPanelTopModule } from '@carbon/icons-angular';
+import { DataTableModule } from '@carbon/icons-angular';
 
 @NgModule({
   declarations: [],
@@ -16,6 +21,11 @@ import { MenuModule } from '@carbon/icons-angular';
     UserAvatarModule,
     AppSwitcherModule,
     MenuModule,
+    DashboardModule,
+    StringTextModule,
+    TemplateModule,
+    OpenPanelTopModule,
+    DataTableModule,
   ],
   exports: [
     AddModule,
@@ -23,6 +33,11 @@ import { MenuModule } from '@carbon/icons-angular';
     UserAvatarModule,
     AppSwitcherModule,
     MenuModule,
+    DashboardModule,
+    StringTextModule,
+    TemplateModule,
+    OpenPanelTopModule,
+    DataTableModule,
   ]
 })
 export class IconsModule { }
