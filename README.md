@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kingcaubalejo/carbon-angular-dashboard">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://cdn.technologynetworks.com/tn/images/thumbs/jpeg/640_360/turning-carbon-dioxide-back-into-coal-316011.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CarbonL0di</h3>
